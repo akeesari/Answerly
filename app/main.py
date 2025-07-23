@@ -1,9 +1,9 @@
 import streamlit as st
-from app.pipeline import get_answer
+from pipeline import get_answer
 
-st.set_page_config(page_title="Answely - Document Search Assistant")
+st.set_page_config(page_title="Answerly - Document Search Assistant")
 
-st.title("Answely - AI Assistant for Word and PDF Docs")
+st.title("Answerly - AI Assistant for Word and PDF Docs")
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []

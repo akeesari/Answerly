@@ -6,7 +6,6 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def query_llm(prompt: str) -> str:
-    print("Using ChatCompletion API")
     try:
         response = openai.ChatCompletion.create(
             model="gpt-4o",

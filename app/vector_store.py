@@ -1,6 +1,6 @@
 import faiss
 import numpy as np
-from app.embedder import get_embedding
+from embedder import get_embedding
 
 _index = None
 _text_chunks = []

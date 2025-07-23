@@ -1,3 +1,15 @@
 # Ignore environment variable files
 .env
 .env.*
+venv/
+*__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+.git/
+.gitignore
+*.log
+*.pdf
+*.docx
+data/

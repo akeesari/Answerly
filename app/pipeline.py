@@ -1,7 +1,7 @@
-from app.document_loader import load_documents
-from app.embedder import get_embedding
-from app.vector_store import initialize_vector_store, search_similar_chunks
-from app.llm import query_llm
+from document_loader import load_documents
+from embedder import get_embedding
+from vector_store import initialize_vector_store, search_similar_chunks
+from llm import query_llm
 
 # Load and embed documents once when the app starts
 documents = load_documents("data/")
